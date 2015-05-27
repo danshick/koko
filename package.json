@@ -29,14 +29,21 @@
     "normalize.css": "^3.0.2",
     "react": "^0.13.1",
     "typed-react": "^3.4.1",
-    "underscore": "^1.8.3"
-  },
-  "devDependencies": {
-    "asar": "^0.6.1",
+    "underscore": "^1.8.3",
     "browserify": "^9.0.3",
     "electron-prebuilt": "^0.24.0",
+    "gulp": "^3.8.11",
+    "gulp-asar": "danshick/gulp-asar",
+    "gulp-clean": "^0.3.1",
+    "gulp-install": "^0.4.0",
+    "gulp-less": "^3.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-run-electron": "^1.1.1",
+    "gulp-tsc": "^0.9.5",
     "less": "^2.4.0",
-    "typescript": "^1.5.0-alpha"
+    "typescript": "^1.5.0-alpha",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
   },
   "scripts": {
     "test": "make"
